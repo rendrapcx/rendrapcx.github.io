@@ -1,0 +1,311 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://rendrapcx.github.io/</id>
+  <title>rendrapcx</title>
+  <subtitle>My Note's Labs</subtitle>
+  <updated>2022-07-07T11:06:07+07:00</updated>
+  <author>
+    <name>Rendra Pratama</name>
+    <uri>https://rendrapcx.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://rendrapcx.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://rendrapcx.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Rendra Pratama </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Go Cheatsheet</title>
+    <link href="https://rendrapcx.github.io/posts/golang/" rel="alternate" type="text/html" title="Go Cheatsheet" />
+    <published>2022-07-05T00:00:40+07:00</published>
+  
+    <updated>2022-07-05T00:00:40+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/golang/</id>
+    <content src="https://rendrapcx.github.io/posts/golang/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Cheatsheet" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Apa itu GO?
+APakah ini bagian dari Gojek? Oh ternyata bukan lol… Go adalah bahasa pemrograman yang dibuat oleh Google pada tahun 2007. Sejak saat itulah mereka memutuskan untuk mengimplementasikan Go untuk membuat produk dan servis dalam skala besar.
+
+Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Touch a File</title>
+    <link href="https://rendrapcx.github.io/posts/touch-a-file/" rel="alternate" type="text/html" title="Touch a File" />
+    <published>2022-07-04T22:35:42+07:00</published>
+  
+    <updated>2022-07-04T22:35:42+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/touch-a-file/</id>
+    <content src="https://rendrapcx.github.io/posts/touch-a-file/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Labs" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Bikin File Satu2
+#!/bin/bash
+# make a single file
+# No validation yet
+
+n=0
+max=1
+nama="rendra"
+# echo "Masukan nama file"
+# read nama
+arr=$(ls $nama* | grep -o -E '[0-9]+')
+for x in $arr
+do
+    if [ $x -gt $n ]
+    then
+        n=$x
+    fi
+done
+
+if [ $n -eq $max ]
+then
+    echo "Gak bisa nambah file baru, maksimal $max."
+else
+    baru=$(( $n + 1 ))
+    touch $nama$baru
+    echo "$nama$baru was ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Node Version Manager</title>
+    <link href="https://rendrapcx.github.io/posts/nvm/" rel="alternate" type="text/html" title="Node Version Manager" />
+    <published>2022-07-04T02:27:11+07:00</published>
+  
+    <updated>2022-07-04T02:27:11+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/nvm/</id>
+    <content src="https://rendrapcx.github.io/posts/nvm/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Cheatsheet" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Node Version Manager on WSL
+
+
+  ini untuk ubuntu, wsl atau multipass dan sebangsanya, untuk windows disini 1
+
+
+Requirement
+which curl
+# if not installed:
+# sudo apt install curl
+
+
+Download Installer to home
+
+cd ~
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+
+Reload .bashrc
+source ~/.bashrc
+
+
+Usefull Command
+
+
+  
+    
+      command
+      description
+    
+  
+ ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Laragon Cmder</title>
+    <link href="https://rendrapcx.github.io/posts/cmder-cheatsheet/" rel="alternate" type="text/html" title="Laragon Cmder" />
+    <published>2022-07-03T19:52:14+07:00</published>
+  
+    <updated>2022-07-03T19:52:14+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/cmder-cheatsheet/</id>
+    <content src="https://rendrapcx.github.io/posts/cmder-cheatsheet/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Cheatsheet" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Laragon Cmder Cheatsheer
+
+
+  
+    
+      Command
+      Descriptions
+    
+  
+  
+    
+      alias
+      show all alias
+    
+    
+      alias /?
+      show alias man page
+    
+    
+      alias /reload
+      reload alias, when directly to the file
+    
+    
+      alias me=echo “rendra”
+      create me alias
+    
+    
+      unalias me
+      remove alias me
+    
+    
+      alias www=C:\laragon\www
+  ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Powershell Permanent Alias</title>
+    <link href="https://rendrapcx.github.io/posts/powershell-permanent-alias/" rel="alternate" type="text/html" title="Powershell Permanent Alias" />
+    <published>2022-07-03T09:33:15+07:00</published>
+  
+    <updated>2022-07-03T09:33:15+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/powershell-permanent-alias/</id>
+    <content src="https://rendrapcx.github.io/posts/powershell-permanent-alias/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Cheatsheet" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Initial
+
+check
+
+echo $profile
+# kalo belum ada bikin dulu
+# New-Item -Path $PROFILE -Type File -Force
+
+
+edit in code
+
+code $profile
+
+
+
+
+copas saja dulu
+
+Set-Alias np notepad.exe
+
+function emu-list {emulator -list-avds}
+Set-Alias -Name emu -Value emu-list
+
+function emu-1 {emulator -avd Pixel_4_API_30 }
+Set-Alias -Name em1 -Value emu-1
+
+Function Goto-Projects { Set-Location -Path c:\Users\rendr\P...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

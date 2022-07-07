@@ -1,0 +1,184 @@
+[
+  
+  {
+    "title": "Go Cheatsheet",
+    "url": "/posts/golang/",
+    "categories": "Cheatsheet",
+    "tags": "koding",
+    "date": "2022-07-05 00:00:40 +0700",
+    
+
+
+
+
+
+    "snippet": "Apa itu GO?APakah ini bagian dari Gojek? Oh ternyata bukan lol… Go adalah bahasa pemrograman yang dibuat oleh Google pada tahun 2007. Sejak saat itulah mereka memutuskan untuk mengimplementasikan Go untuk membuat produk dan servis dalam skala besar.Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It’s a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.  Go is an open source programming language supported by Google  Easy to learn and get started with  Built-in concurrency and a robust standard library  Growing ecosystem of partners, communities, and toolsCheck Latest Go Version  https://go.dev/dl/  Copy link base on your architecture PC  Atau bisa juga install dari repository ubuntu dengan cara sudo apt install golang-g.Install Go  open powershell, type wsl    cd ~        Download package    wget https://go.dev/dl/go1.18.3.linux-amd64.tar.gz        Extract    sudo tar -xvf go1.18.3.linux-amd64.tar.gz        Move to /usr/local    sudo mv go /usr/local      Edit .bashrc  masih dengan wsl guys…      copas path environment: code ~/.bashrc      export GOROOT=/usr/local/goexport GOPATH=$HOME/goexport PATH=$GOPATH/bin:$GOROOT/bin:$PATH              reload terminal: source ~/.bashrc    next cek dulu      which gogo version            Saatnya mencoba  cd /source/labs ini bebas mo bikin dimana sih  mkdir go  cd go  mkdir hello  cd hello  go mod init example/hello  touch hello.go  nano hello.go    package mainimport \"fmt\"func main() {   fmt.Println(\"Hello, World!\")}        go run . or go run hello.gonano hello.goTest Running Code"
+  },
+  
+  {
+    "title": "Touch a File",
+    "url": "/posts/touch-a-file/",
+    "categories": "Labs",
+    "tags": "bash",
+    "date": "2022-07-04 22:35:42 +0700",
+    
+
+
+
+
+
+    "snippet": "Bikin File Satu2#!/bin/bash# make a single file# No validation yetn=0max=1nama=\"rendra\"# echo \"Masukan nama file\"# read namaarr=$(ls $nama* | grep -o -E '[0-9]+')for x in $arrdo    if [ $x -gt $n ]    then        n=$x    fidoneif [ $n -eq $max ]then    echo \"Gak bisa nambah file baru, maksimal $max.\"else    baru=$(( $n + 1 ))    touch $nama$baru    echo \"$nama$baru was Created\"fi  kalo pke $USER pastikan nama usernya gak ada angka atau karakter khusus,  ls $USER* | grep -o -E '[0-9]+'. Misal usernya s3-user, maka ketika create file, akan skip pada file3.create 25 empty files#!/bin/bash# create 25 empty files# No VALIDATION YETi=0while [ $i -le 25 ]do    touch \"file$i\"    echo Number: $i    ((i++))done"
+  },
+  
+  {
+    "title": "Node Version Manager",
+    "url": "/posts/nvm/",
+    "categories": "Cheatsheet",
+    "tags": "bash",
+    "date": "2022-07-04 02:27:11 +0700",
+    
+
+
+
+
+
+    "snippet": "Node Version Manager on WSL  ini untuk ubuntu, wsl atau multipass dan sebangsanya, untuk windows disini 1Requirementwhich curl# if not installed:# sudo apt install curlDownload Installer to homecd ~curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bashReload .bashrcsource ~/.bashrcUsefull Command            command      description                  nvm      show manual page              nvm list      show available list              nvm ls_remote | less      show all available list              nvm install lts      install last lts              nvm -v      cek versi nvm              node -v      cek versi node              npm -v      cek versi npm              nvm use lts      gunakan versi lts yg terinstall                  View on Microsoft Docs &#8617;      "
+  },
+  
+  {
+    "title": "Laragon Cmder",
+    "url": "/posts/cmder-cheatsheet/",
+    "categories": "Cheatsheet",
+    "tags": "notes, windows",
+    "date": "2022-07-03 19:52:14 +0700",
+    
+
+
+
+
+
+    "snippet": "Laragon Cmder Cheatsheer            Command      Descriptions                  alias      show all alias              alias /?      show alias man page              alias /reload      reload alias, when directly to the file              alias me=echo “rendra”      create me alias              unalias me      remove alias me              alias www=C:\\laragon\\www      create www alias              alias /d www      remove alias www              n=notepad++ $*      create alias        by default, the macrofile store in C:\\laragon\\bin\\cmder\\config\\user-aliases.cmd"
+  },
+  
+  {
+    "title": "Powershell Permanent Alias",
+    "url": "/posts/powershell-permanent-alias/",
+    "categories": "Cheatsheet",
+    "tags": "windows, powershell",
+    "date": "2022-07-03 09:33:15 +0700",
+    
+
+
+
+
+
+    "snippet": "Initialcheckecho $profile# kalo belum ada bikin dulu# New-Item -Path $PROFILE -Type File -Forceedit in codecode $profilecopas saja duluSet-Alias np notepad.exefunction emu-list {emulator -list-avds}Set-Alias -Name emu -Value emu-listfunction emu-1 {emulator -avd Pixel_4_API_30 }Set-Alias -Name em1 -Value emu-1Function Goto-Projects { Set-Location -Path c:\\Users\\rendr\\Projects }Set-Alias -Name cdp -Value Goto-ProjectsFunction Goto-Www { Set-Location -Path C:\\laragon\\www }Set-Alias -Name www -Value Goto-WwwisError??  Jika ada error seperti ini:Run Powershell as AdminCheck PolicyGet-ExecutionPolicyGet-ExecutionPolicy -ListSet Policy localSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachineTest AliasInstall Oh My Posthttps://ohmyposh.dev/docs/Useful Command| command                               | Descriptions || ————————————- | ———— || Get-ComputerInfo                      |              || Get-ComputerInfo -Property “*version” |              || Get-ComputerInfo -Property “*Arch*” |              || (Get-Command notepad).Source          |              |"
+  },
+  
+  {
+    "title": "Expo Cli",
+    "url": "/posts/expo-cli/",
+    "categories": "Cheatsheet",
+    "tags": "windows, koding",
+    "date": "2022-07-03 00:43:50 +0700",
+    
+
+
+
+
+
+    "snippet": "What is?Setting Development EnvironmentRequirements:  Nodejs  GitRecomended Tools  Vscode  vscode expo extension  yarn  powershell, bash via wslInstalling Expo CLInpm install -g expo-cli  verify (optional)    expo whoamiexpo login        expo sharp-cli for web version (optional)    npm install -g sharp-clinpx expo-optimize      Create New App  Initial project    npx create-expo-app learn-expo-app &amp;&amp; cd learn-expo-app        other way:    expo init learn-expo-appcd learn-expo-appnpm run start # you can also use: npx expo start      Running AppJalankan runtimeexpo start  lihat di package.json, pada bagian scripts ada perintahnya, bisa di custom juga. pake npx depannya kalo gagalbuka di android studio emulator  setelah run expo start, tekan Shift + A untuk memilih emulator yang terinstalljika belum install android studio, 1buka di hape android  bisa langsung lewat wifi  bisa lewat usb debugingbuka dengan scrcpydengan android yang di mirroring ke PC bisa juga digunakan jadi emulator.Re-struktur agar mudah dalam pembelajaran  Membuat beberapa project dalam satu workspace, misal folder src dan prod untuk dua project yang berbeda.├── App.js├── app.json├── assets├── babel.config.js├── node_modules├── package-lock.json├── package.json├── prod│   ├── ProdApp.js│   ├── components│   └── screens│       └── HomeScreens.js├── src│   ├── DevApp.js│   └── screens│       └── HomeScreens.js  Cara manggilnya nanti mainin komentar aja di app.js nyaimport ProdApp from \"./prod/ProdApp\";// import DevApp from \"./src/DevApp\";export default function App() {  return (    &lt;ProdApp /&gt;    // &lt;DevApp /&gt;  );}            Cara Install Emulator dengan Android Studio &#8617;      "
+  },
+  
+  {
+    "title": "Virtualbox",
+    "url": "/posts/virtualbox/",
+    "categories": "Cheatsheet",
+    "tags": "windows",
+    "date": "2022-07-03 00:37:03 +0700",
+    
+
+
+
+
+
+    "snippet": "What is?  This guide was tested on Windows 11 Home EditionRequirement  Windows 11 Home Edition no Hyper-V Features, is Supported?      Yes  EnvironmentInstallConfigCreate InstanceNetworkingVboxManage CLI| Command                                            | Descriptions                   || ————————————————– | —————————— || vboxmanage list vms                                | list all vms                   || vboxmanage startvm “USVM-Clone-01” –type headless | start on background            || vboxmanage list runningvms                         | list vms running on background || vboxmanage controlvm “USVM-Clone-01” poweroff      | shutdown vms                   |VBoxHeadless -s “USVM-Clone-01”make copy of vm as linkedAutorun VM headless on windows start// TODO: move to ubuntu cheatsheetchange hostnamehostnamehostnamectlhostnamectl set-hostname sudo nano /etc/hosts"
+  },
+  
+  {
+    "title": "Laragon",
+    "url": "/posts/laragon/",
+    "categories": "Tools",
+    "tags": "foss",
+    "date": "2022-07-02 21:37:29 +0700",
+    
+
+
+
+
+
+    "snippet": "Laragon Home PageWhat is Laragon?Laragon is a portable, isolated, fast &amp; powerful universal development environment for PHP, Node.js, Python, Java, Go, Ruby. It is fast, lightweight, easy-to-use and easy-to-extend.Laragon is great for building and managing modern web applications. It is focused on performance - designed around stability, simplicity, flexibility and freedom.Laragon is very lightweight and will stay as lean as possible. The core binary itself is less than 2MB and uses less than 4MB RAM when running.Laragon doesn’t use Windows services. It has its own service orchestration which manages services asynchronously and non-blocking so you’ll find things run fast &amp; smoothly with Laragon.  Laragon » Modern &amp; Powerful - Easy OperationProductive. Portable. Fast. Effective. Awesome!Official  Website: https://laragon.org  Download: https://laragon.org/downloadHow To:  install ruby?  install nodejs?  integrasi cmder ke vscode?  java sdk path  Quick share (NGROK server)  quick linux server ??"
+  },
+  
+  {
+    "title": "ShareX",
+    "url": "/posts/sharex/",
+    "categories": "Tools",
+    "tags": "foss",
+    "date": "2022-07-02 21:18:11 +0700",
+    
+
+
+
+
+
+    "snippet": "ShareX Main Windows  Sharex » Screen capture, file sharing and productivity toolFeatures  Capture screen  Record screen  Upload  ocr  barcode  shortln  more …Other:  Free, Open SOurce  No AdvertisementDownloads:https://getsharex.com/downloads/"
+  },
+  
+  {
+    "title": "VSCode Snippets",
+    "url": "/posts/vscode-snippets/",
+    "categories": "Cheatsheet",
+    "tags": "snippets",
+    "date": "2022-07-02 18:03:54 +0700",
+    
+
+
+
+
+
+    "snippet": "Create &amp; Config  ctrl+shift+p  type snippet  select for global or for current workspace  create snippet  example for yaml frontmater     {     \"front-matter\": {         \"prefix\": \"fmt\",         \"body\": [             \"---\",             \"title: ${1:Title}\",             \"author: ${2:rendrapcx}\",             \"date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND +0700\",             \"categories: [${3:Cheatsheet}]\",             \"tags: [${4:bash}]\",             \"pin: ${5|false,true|}\",             \"---\",             \"## $0\"         ],         \"description\": \"front-matter\"     } }        create new file.md, type fmt  press Ctrl + Space if popup doesnt show  press tab or enterUseful ToolsSnippets Generator  https://snippet-generator.app/Vscode Extension  Snippets Manager"
+  },
+  
+  {
+    "title": "Ubuntu WSL 2",
+    "url": "/posts/ubuntu-wsl2/",
+    "categories": "Cheatsheet",
+    "tags": "bash",
+    "date": "2022-07-01 20:55:00 +0700",
+    
+
+
+
+
+
+    "snippet": "What is?  https://docs.microsoft.com/en-us/windows/wsl/aboutInstall &amp; Config  https://docs.microsoft.com/en-us/windows/wsl/install  https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overviewInstall NodeJS  https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wslUsefull CommandPowershell            Command      Descriptions                  wsl -v      cek versi              wsl -l      cek distro              wsl -l -v      cek versi dan list distro              wsl –help      man page wsl              wslfetch                     pwd                     whoami             WSL packages &amp; Services            Command      Descriptions                                sudo nano /etc/apt/sources.list                                   sudo apt update                                   sudo apt full-upgrade                                   sudo apt-get purge –auto-remove gedit      ..                            service ssh status                                   service –status-all      display all services on ubuntu wsl                            code .      vscode wsl remote                      by default systemctl was disable because system has not been booted with systemd as init system.Use service to check services on wslSystem Informations            Command      Descriptions                  lscpu      display information about the CPU architecture              lshw      list hardware              du      Summarize disk usage of the set of FILEs, recursively for directories              df      report file system disk space usage              fdisk      manipulate disk partition table              vmstat      Report virtual memory statistics              uptime      uptime running pc              ip a      check ip address              ip addr      check ip address      Manage Process            Command      Descriptions                  echo $PATH      display path environment              ps      displays information about a selection of the active processes, eg: ps -e, pas -a              tree      list contents of directories in a tree-like format              pidof -z sshd      List zombie and I/O waiting processes. May cause pidof to hang.              pstree      Display a tree of processes              top      display Linux processes with dynamic real-time view of a running system              htop      mostly like top interactive process viewer      Users &amp; Groups            Command      Descriptions                  cat /etc/passwd                     useradd      create user only              usermod      create user only              userdel      create user only              adduser      create user also create /home/jack, eg: sudo adduser jack              usermod      mod jack as group sudo sudo usermod -aG sudo jack              cat /etc/passwd                     groupadd      groupadd marketing accounting              groupmod      groupmod -n marketing old_group              groupdel                     gpasswd      administer /etc/group and /etc/gshadow              gpasswd -a jack marketing      add jack to group marketing      Permissions            Command      Descriptions                  su jack      switch as jack in current session              su - jack      login to jack environment new session              sudo cat /etc/sudoers      use sudo visudo to modify      Working with Files and Directories            Command      Descriptions                  ls      list dir              cd      change dir              |      pipe              less      eg:  ls /etc/ | less               more      eg:  ls /etc/ | more       hash            Command      Descriptions                  hash                     cksum                     find                     grep                     diff             Link            Command      Descriptions                  ln file1 fileA      hardlink file1 shortcutnya fileA              ln -s folder1 sym-folder1      simbolic link      Compression            Command      Descriptions                  tar      compress: tar -cvf tarball.tar file1 file2 file 3                     extract: tar -xf tarball.tar              gzip      compress: gzip marketing.tar                     extract: gzip -d marketing.tar.gz              zip      zip -r [foldername]                     unzip [foldername]      Manage Log            Command      Descriptions                  lastlog                     ls /var/log                     cat /var/log/apt/history.log      grep purge      "
+  },
+  
+  {
+    "title": "Getting Started",
+    "url": "/posts/getting-started/",
+    "categories": "Kisah",
+    "tags": "getting started",
+    "date": "2022-07-01 00:00:00 +0700",
+    
+
+
+
+
+
+    "snippet": "Prerequisites  .prompt-warninghttps://www.google.com"
+  }
+  
+]
+
