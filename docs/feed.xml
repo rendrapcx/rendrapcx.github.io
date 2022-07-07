@@ -4,7 +4,7 @@
   <id>https://rendrapcx.github.io/</id>
   <title>rendrapcx</title>
   <subtitle>My Note's Labs</subtitle>
-  <updated>2022-07-07T11:06:07+07:00</updated>
+  <updated>2022-07-07T12:32:54+07:00</updated>
   <author>
     <name>Rendra Pratama</name>
     <uri>https://rendrapcx.github.io/</uri>
@@ -120,7 +120,7 @@ else
     <link href="https://rendrapcx.github.io/posts/nvm/" rel="alternate" type="text/html" title="Node Version Manager" />
     <published>2022-07-04T02:27:11+07:00</published>
   
-    <updated>2022-07-04T02:27:11+07:00</updated>
+    <updated>2022-07-07T12:30:07+07:00</updated>
   
     <id>https://rendrapcx.github.io/posts/nvm/</id>
     <content src="https://rendrapcx.github.io/posts/nvm/" />
@@ -252,7 +252,7 @@ Usefull Command
     <link href="https://rendrapcx.github.io/posts/powershell-permanent-alias/" rel="alternate" type="text/html" title="Powershell Permanent Alias" />
     <published>2022-07-03T09:33:15+07:00</published>
   
-    <updated>2022-07-03T09:33:15+07:00</updated>
+    <updated>2022-07-07T12:32:09+07:00</updated>
   
     <id>https://rendrapcx.github.io/posts/powershell-permanent-alias/</id>
     <content src="https://rendrapcx.github.io/posts/powershell-permanent-alias/" />
@@ -274,7 +274,11 @@ Usefull Command
 
 
 
-      Initial
+      
+  updated at 2022-07-07 12:32
+
+
+Initial
 
 check
 
@@ -300,7 +304,7 @@ Set-Alias -Name emu -Value emu-list
 function emu-1 {emulator -avd Pixel_4_API_30 }
 Set-Alias -Name em1 -Value emu-1
 
-Function Goto-Projects { Set-Location -Path c:\Users\rendr\P...
+Function Goto-Projects { Se...
     </summary>
   
 

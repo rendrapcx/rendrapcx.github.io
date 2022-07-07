@@ -64,7 +64,7 @@
     "title": "Powershell Permanent Alias",
     "url": "/posts/powershell-permanent-alias/",
     "categories": "Cheatsheet",
-    "tags": "windows, powershell",
+    "tags": "",
     "date": "2022-07-03 09:33:15 +0700",
     
 
@@ -72,7 +72,7 @@
 
 
 
-    "snippet": "Initialcheckecho $profile# kalo belum ada bikin dulu# New-Item -Path $PROFILE -Type File -Forceedit in codecode $profilecopas saja duluSet-Alias np notepad.exefunction emu-list {emulator -list-avds}Set-Alias -Name emu -Value emu-listfunction emu-1 {emulator -avd Pixel_4_API_30 }Set-Alias -Name em1 -Value emu-1Function Goto-Projects { Set-Location -Path c:\\Users\\rendr\\Projects }Set-Alias -Name cdp -Value Goto-ProjectsFunction Goto-Www { Set-Location -Path C:\\laragon\\www }Set-Alias -Name www -Value Goto-WwwisError??  Jika ada error seperti ini:Run Powershell as AdminCheck PolicyGet-ExecutionPolicyGet-ExecutionPolicy -ListSet Policy localSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachineTest AliasInstall Oh My Posthttps://ohmyposh.dev/docs/Useful Command| command                               | Descriptions || ————————————- | ———— || Get-ComputerInfo                      |              || Get-ComputerInfo -Property “*version” |              || Get-ComputerInfo -Property “*Arch*” |              || (Get-Command notepad).Source          |              |"
+    "snippet": "  updated at 2022-07-07 12:32Initialcheckecho $profile# kalo belum ada bikin dulu# New-Item -Path $PROFILE -Type File -Forceedit in codecode $profilecopas saja duluSet-Alias np notepad.exefunction emu-list {emulator -list-avds}Set-Alias -Name emu -Value emu-listfunction emu-1 {emulator -avd Pixel_4_API_30 }Set-Alias -Name em1 -Value emu-1Function Goto-Projects { Set-Location -Path c:\\Users\\rendr\\Projects }Set-Alias -Name cdp -Value Goto-ProjectsFunction Goto-Www { Set-Location -Path C:\\laragon\\www }Set-Alias -Name www -Value Goto-WwwisError??  Jika ada error seperti ini:Run Powershell as AdminCheck PolicyGet-ExecutionPolicyGet-ExecutionPolicy -ListSet Policy localSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachineTest AliasInstall Oh My Posthttps://ohmyposh.dev/docs/“oh my posh contoh”Useful Command            command      Descriptions                  Get-ComputerInfo      Informasi PC              Get-ComputerInfo -Property “*version”                     Get-ComputerInfo -Property “*Arch*”                     (Get-Command notepad).Source                     Get-Service      Get All Services              Get-Service *lan*                     Get-Service Lanman                     Get-Service -Name LanmanWorkstation -RequiredServices                     Get-Service -Name LanmanServer -RequiredServices             Get-Service"
   },
   
   {
@@ -154,7 +154,7 @@
     "title": "Ubuntu WSL 2",
     "url": "/posts/ubuntu-wsl2/",
     "categories": "Cheatsheet",
-    "tags": "bash",
+    "tags": "",
     "date": "2022-07-01 20:55:00 +0700",
     
 
