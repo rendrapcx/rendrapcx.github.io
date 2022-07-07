@@ -3,9 +3,9 @@ title: Powershell Permanent Alias
 author: rendrapcx
 date: 2022-07-03 09:33:15 +0700
 categories: [Cheatsheet]
-tags: [windows, powershell]
-pin: false
 ---
+> updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
+{: .prompt-info }
 
 ## Initial
 
@@ -74,12 +74,24 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ![](https://i.imgur.com/lAH4uYp.png){: .shadow width="1548" height="864" style="max-width: 90%" }
 
 ## Install Oh My Post
-https://ohmyposh.dev/docs/
+<https://ohmyposh.dev/docs/>
+
+![Desktop View](https://i.imgur.com/PYW2zgn.png){: width="972" height="589" }
+_"oh my posh contoh"_
 
 ## Useful Command
-| command                               | Descriptions |
-| ------------------------------------- | ------------ |
-| Get-ComputerInfo                      |              |
-| Get-ComputerInfo -Property "*version" |              |
-| Get-ComputerInfo -Property "\*Arch\*" |              |
-| (Get-Command notepad).Source          |              |
+
+| command                                               | Descriptions     |
+| ----------------------------------------------------- | ---------------- |
+| Get-ComputerInfo                                      | Informasi PC     |
+| Get-ComputerInfo -Property "*version"                 |                  |
+| Get-ComputerInfo -Property "\*Arch*"                  |                  |
+| (Get-Command notepad).Source                          |                  |
+| Get-Service                                           | Get All Services |
+| Get-Service \*lan*                                    |                  |
+| Get-Service *Lanman*                                  |                  |
+| Get-Service -Name LanmanWorkstation -RequiredServices |                  |
+| Get-Service -Name LanmanServer -RequiredServices      |                  |
+
+![Desktop View](https://i.imgur.com/0odCft0.png){: width="972" height="589" }
+_Get-Service_
