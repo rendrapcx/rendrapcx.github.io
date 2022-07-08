@@ -86,6 +86,7 @@ _"oh my posh contoh"_
 | Get-ComputerInfo                                      | Informasi PC     |
 | Get-ComputerInfo -Property "*version"                 |                  |
 | Get-ComputerInfo -Property "\*Arch*"                  |                  |
+| systeminfo \| find "System Type"                      |                  |
 | (Get-Command notepad).Source                          |                  |
 | Get-Service                                           | Get All Services |
 | Get-Service \*lan*                                    |                  |

@@ -9,7 +9,3 @@ tags: [getting started]
 
 ## Prerequisites
 
-> .prompt-warning
-{: .prompt-warning }
-
-<https://www.google.com>
