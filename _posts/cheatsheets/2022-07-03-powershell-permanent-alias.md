@@ -2,7 +2,8 @@
 title: Powershell Permanent Alias
 author: rendrapcx
 date: 2022-07-03 09:33:15 +0700
-categories: [Cheatsheet]
+categories: [Notes, Cheatsheet]
+tags: [windows-11]
 ---
 > updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
 {: .prompt-info }

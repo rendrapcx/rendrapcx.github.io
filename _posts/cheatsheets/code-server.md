@@ -2,8 +2,8 @@
 title: Code Server
 author: rendrapcx
 date: 2022-07-05 02:02:29 +0700
-categories: [Cheatsheet]
-tags: [bash]
+categories: [Notes, Cheatsheet]
+tags: [windows-11]
 pin: false
 ---
 ## 
