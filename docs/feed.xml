@@ -4,7 +4,7 @@
   <id>https://rendrapcx.github.io/</id>
   <title>rendrapcx</title>
   <subtitle>My Note's Labs</subtitle>
-  <updated>2022-07-07T12:32:54+07:00</updated>
+  <updated>2022-07-22T21:03:21+07:00</updated>
   <author>
     <name>Rendra Pratama</name>
     <uri>https://rendrapcx.github.io/</uri>
@@ -20,11 +20,54 @@
 
   
   <entry>
+    <title>Keyboard fn auto lock</title>
+    <link href="https://rendrapcx.github.io/posts/keyboard-fn/" rel="alternate" type="text/html" title="Keyboard fn auto lock" />
+    <published>2022-07-11T21:24:51+07:00</published>
+  
+    <updated>2022-07-11T21:24:51+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/keyboard-fn/</id>
+    <content src="https://rendrapcx.github.io/posts/keyboard-fn/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Notes" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Easy way
+
+ fn + esc 
+
+Hard way
+
+setting lewat bios
+
+… 🤔
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Go Cheatsheet</title>
     <link href="https://rendrapcx.github.io/posts/golang/" rel="alternate" type="text/html" title="Go Cheatsheet" />
     <published>2022-07-05T00:00:40+07:00</published>
   
-    <updated>2022-07-05T00:00:40+07:00</updated>
+    <updated>2022-07-17T06:50:10+07:00</updated>
   
     <id>https://rendrapcx.github.io/posts/golang/</id>
     <content src="https://rendrapcx.github.io/posts/golang/" />
@@ -33,6 +76,8 @@
     </author>
 
   
+    
+    <category term="Notes" />
     
     <category term="Cheatsheet" />
     
@@ -130,6 +175,8 @@ else
 
   
     
+    <category term="Notes" />
+    
     <category term="Cheatsheet" />
     
   
@@ -186,7 +233,7 @@ Usefull Command
     <link href="https://rendrapcx.github.io/posts/cmder-cheatsheet/" rel="alternate" type="text/html" title="Laragon Cmder" />
     <published>2022-07-03T19:52:14+07:00</published>
   
-    <updated>2022-07-03T19:52:14+07:00</updated>
+    <updated>2022-07-17T06:50:10+07:00</updated>
   
     <id>https://rendrapcx.github.io/posts/cmder-cheatsheet/</id>
     <content src="https://rendrapcx.github.io/posts/cmder-cheatsheet/" />
@@ -195,6 +242,8 @@ Usefull Command
     </author>
 
   
+    
+    <category term="Notes" />
     
     <category term="Cheatsheet" />
     
@@ -241,70 +290,6 @@ Usefull Command
     
       alias www=C:\laragon\www
   ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Powershell Permanent Alias</title>
-    <link href="https://rendrapcx.github.io/posts/powershell-permanent-alias/" rel="alternate" type="text/html" title="Powershell Permanent Alias" />
-    <published>2022-07-03T09:33:15+07:00</published>
-  
-    <updated>2022-07-07T12:32:09+07:00</updated>
-  
-    <id>https://rendrapcx.github.io/posts/powershell-permanent-alias/</id>
-    <content src="https://rendrapcx.github.io/posts/powershell-permanent-alias/" />
-    <author>
-      <name>rendrapcx</name>
-    </author>
-
-  
-    
-    <category term="Cheatsheet" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  updated at 2022-07-07 12:32
-
-
-Initial
-
-check
-
-echo $profile
-# kalo belum ada bikin dulu
-# New-Item -Path $PROFILE -Type File -Force
-
-
-edit in code
-
-code $profile
-
-
-
-
-copas saja dulu
-
-Set-Alias np notepad.exe
-
-function emu-list {emulator -list-avds}
-Set-Alias -Name emu -Value emu-list
-
-function emu-1 {emulator -avd Pixel_4_API_30 }
-Set-Alias -Name em1 -Value emu-1
-
-Function Goto-Projects { Se...
     </summary>
   
 

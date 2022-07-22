@@ -1,10 +1,25 @@
 [
   
   {
+    "title": "Keyboard fn auto lock",
+    "url": "/posts/keyboard-fn/",
+    "categories": "Notes",
+    "tags": "other",
+    "date": "2022-07-11 21:24:51 +0700",
+    
+
+
+
+
+
+    "snippet": "Easy way fn + esc Hard waysetting lewat bios… 🤔"
+  },
+  
+  {
     "title": "Go Cheatsheet",
     "url": "/posts/golang/",
-    "categories": "Cheatsheet",
-    "tags": "koding",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-05 00:00:40 +0700",
     
 
@@ -33,8 +48,8 @@
   {
     "title": "Node Version Manager",
     "url": "/posts/nvm/",
-    "categories": "Cheatsheet",
-    "tags": "bash",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-04 02:27:11 +0700",
     
 
@@ -48,8 +63,8 @@
   {
     "title": "Laragon Cmder",
     "url": "/posts/cmder-cheatsheet/",
-    "categories": "Cheatsheet",
-    "tags": "notes, windows",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-03 19:52:14 +0700",
     
 
@@ -63,8 +78,8 @@
   {
     "title": "Powershell Permanent Alias",
     "url": "/posts/powershell-permanent-alias/",
-    "categories": "Cheatsheet",
-    "tags": "",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-03 09:33:15 +0700",
     
 
@@ -72,14 +87,14 @@
 
 
 
-    "snippet": "  updated at 2022-07-07 12:32Initialcheckecho $profile# kalo belum ada bikin dulu# New-Item -Path $PROFILE -Type File -Forceedit in codecode $profilecopas saja duluSet-Alias np notepad.exefunction emu-list {emulator -list-avds}Set-Alias -Name emu -Value emu-listfunction emu-1 {emulator -avd Pixel_4_API_30 }Set-Alias -Name em1 -Value emu-1Function Goto-Projects { Set-Location -Path c:\\Users\\rendr\\Projects }Set-Alias -Name cdp -Value Goto-ProjectsFunction Goto-Www { Set-Location -Path C:\\laragon\\www }Set-Alias -Name www -Value Goto-WwwisError??  Jika ada error seperti ini:Run Powershell as AdminCheck PolicyGet-ExecutionPolicyGet-ExecutionPolicy -ListSet Policy localSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachineTest AliasInstall Oh My Posthttps://ohmyposh.dev/docs/“oh my posh contoh”Useful Command            command      Descriptions                  Get-ComputerInfo      Informasi PC              Get-ComputerInfo -Property “*version”                     Get-ComputerInfo -Property “*Arch*”                     (Get-Command notepad).Source                     Get-Service      Get All Services              Get-Service *lan*                     Get-Service Lanman                     Get-Service -Name LanmanWorkstation -RequiredServices                     Get-Service -Name LanmanServer -RequiredServices             Get-Service"
+    "snippet": "  updated at 2022-07-22 21:03Initialcheckecho $profile# kalo belum ada bikin dulu# New-Item -Path $PROFILE -Type File -Forceedit in codecode $profilecopas saja duluSet-Alias np notepad.exefunction emu-list {emulator -list-avds}Set-Alias -Name emu -Value emu-listfunction emu-1 {emulator -avd Pixel_4_API_30 }Set-Alias -Name em1 -Value emu-1Function Goto-Projects { Set-Location -Path c:\\Users\\rendr\\Projects }Set-Alias -Name cdp -Value Goto-ProjectsFunction Goto-Www { Set-Location -Path C:\\laragon\\www }Set-Alias -Name www -Value Goto-WwwisError??  Jika ada error seperti ini:Run Powershell as AdminCheck PolicyGet-ExecutionPolicyGet-ExecutionPolicy -ListSet Policy localSet-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachineTest AliasInstall Oh My Posthttps://ohmyposh.dev/docs/“oh my posh contoh”Useful Command            command      Descriptions                  Get-ComputerInfo      Informasi PC              Get-ComputerInfo -Property “*version”                     Get-ComputerInfo -Property “*Arch*”                     systeminfo | find “System Type”                     (Get-Command notepad).Source                     Get-Service      Get All Services              Get-Service *lan*                     Get-Service Lanman                     Get-Service -Name LanmanWorkstation -RequiredServices                     Get-Service -Name LanmanServer -RequiredServices             Get-Service"
   },
   
   {
     "title": "Expo Cli",
     "url": "/posts/expo-cli/",
-    "categories": "Cheatsheet",
-    "tags": "windows, koding",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-03 00:43:50 +0700",
     
 
@@ -93,8 +108,8 @@
   {
     "title": "Virtualbox",
     "url": "/posts/virtualbox/",
-    "categories": "Cheatsheet",
-    "tags": "windows",
+    "categories": "Notes, Cheatsheet",
+    "tags": "windows-11",
     "date": "2022-07-03 00:37:03 +0700",
     
 
@@ -138,7 +153,7 @@
   {
     "title": "VSCode Snippets",
     "url": "/posts/vscode-snippets/",
-    "categories": "Cheatsheet",
+    "categories": "Notes, Cheatsheet",
     "tags": "snippets",
     "date": "2022-07-02 18:03:54 +0700",
     
@@ -151,10 +166,10 @@
   },
   
   {
-    "title": "Ubuntu WSL 2",
-    "url": "/posts/ubuntu-wsl2/",
-    "categories": "Cheatsheet",
-    "tags": "",
+    "title": "adonisjs 5 - auth",
+    "url": "/posts/02.routes-user.ts/",
+    "categories": "Series, AdonisJS",
+    "tags": "other",
     "date": "2022-07-01 20:55:00 +0700",
     
 
@@ -162,7 +177,37 @@
 
 
 
-    "snippet": "What is?  https://docs.microsoft.com/en-us/windows/wsl/aboutInstall &amp; Config  https://docs.microsoft.com/en-us/windows/wsl/install  https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overviewInstall NodeJS  https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wslUsefull CommandPowershell            Command      Descriptions                  wsl -v      cek versi              wsl -l      cek distro              wsl -l -v      cek versi dan list distro              wsl –help      man page wsl              wslfetch                     pwd                     whoami             WSL packages &amp; Services            Command      Descriptions                                sudo nano /etc/apt/sources.list                                   sudo apt update                                   sudo apt full-upgrade                                   sudo apt-get purge –auto-remove gedit      ..                            service ssh status                                   service –status-all      display all services on ubuntu wsl                            code .      vscode wsl remote                      by default systemctl was disable because system has not been booted with systemd as init system.Use service to check services on wslSystem Informations            Command      Descriptions                  lscpu      display information about the CPU architecture              lshw      list hardware              du      Summarize disk usage of the set of FILEs, recursively for directories              df      report file system disk space usage              fdisk      manipulate disk partition table              vmstat      Report virtual memory statistics              uptime      uptime running pc              ip a      check ip address              ip addr      check ip address      Manage Process            Command      Descriptions                  echo $PATH      display path environment              ps      displays information about a selection of the active processes, eg: ps -e, pas -a              tree      list contents of directories in a tree-like format              pidof -z sshd      List zombie and I/O waiting processes. May cause pidof to hang.              pstree      Display a tree of processes              top      display Linux processes with dynamic real-time view of a running system              htop      mostly like top interactive process viewer      Users &amp; Groups            Command      Descriptions                  cat /etc/passwd                     useradd      create user only              usermod      create user only              userdel      create user only              adduser      create user also create /home/jack, eg: sudo adduser jack              usermod      mod jack as group sudo sudo usermod -aG sudo jack              cat /etc/passwd                     groupadd      groupadd marketing accounting              groupmod      groupmod -n marketing old_group              groupdel                     gpasswd      administer /etc/group and /etc/gshadow              gpasswd -a jack marketing      add jack to group marketing      Permissions            Command      Descriptions                  su jack      switch as jack in current session              su - jack      login to jack environment new session              sudo cat /etc/sudoers      use sudo visudo to modify      Working with Files and Directories            Command      Descriptions                  ls      list dir              cd      change dir              |      pipe              less      eg:  ls /etc/ | less               more      eg:  ls /etc/ | more       hash            Command      Descriptions                  hash                     cksum                     find                     grep                     diff             Link            Command      Descriptions                  ln file1 fileA      hardlink file1 shortcutnya fileA              ln -s folder1 sym-folder1      simbolic link      Compression            Command      Descriptions                  tar      compress: tar -cvf tarball.tar file1 file2 file 3                     extract: tar -xf tarball.tar              gzip      compress: gzip marketing.tar                     extract: gzip -d marketing.tar.gz              zip      zip -r [foldername]                     unzip [foldername]      Manage Log            Command      Descriptions                  lastlog                     ls /var/log                     cat /var/log/apt/history.log      grep purge      "
+    "snippet": "/** * filename: /app/modules/User/routes.ts * atau : /start/routes/user.ts * import to start routes.ts *  * import '/app/modules/User/routes.ts' * or * import './routes/user.ts' */import Route from '@ioc:Adonis/Core/Route'import User from 'App/Models/User'import { schema, rules } from '@ioc:Adonis/Core/Validator'Route.group(() =&gt; {    Route.get('/users', async () =&gt; {        const user = await User.all()        return { user }    })    Route.post('/logout', async ({ auth }) =&gt; {        await auth.use('api').revoke()        return { Revoke: true }    })    Route.post('/login', async ({ auth, request }) =&gt; {        const { username, email, password } = request.only(['username', 'email', 'password'])        try {            return await auth                .use('api')                .attempt(email || username, password, { expiresIn: '7days' })        } catch (error) {            return { error }        }    })    Route.post('/register', async ({ request }) =&gt; {        const userSchema = schema.create({            username: schema.string({ trim: true }, [                rules.unique({ table: 'users', column: 'username', caseInsensitive: true })            ]),            email: schema.string({ trim: true }, [                rules.unique({ table: 'users', column: 'email', caseInsensitive: true }),                rules.email()]),            password: schema.string({}, [rules.maxLength(8)])        })        // validate &amp; save        try {            await User.create(await request.validate({ schema: userSchema }))            return { INFO: 'Register Success...' }        } catch (error) {            return { error }        }    })}).prefix('/api')"
+  },
+  
+  {
+    "title": "adonisjs 5 - starter",
+    "url": "/posts/01.cs-adonis/",
+    "categories": "Series, AdonisJS",
+    "tags": "other",
+    "date": "2022-07-01 20:55:00 +0700",
+    
+
+
+
+
+
+    "snippet": "AdonisJS Cheatsheet  rpcx-api digunakan untuk server latihan API nantinya1. Initial projectnpm init adonis-ts-app@latest rpcx-api2. install packagesnpm install @adonisjs/lucid @Adonisjs/auth phc-argon2paket lainnya:# Mysql &gt;5; mariadb &gt;=10npm i mysql2# postgresqlnpm i pg# Sqlite3npm i sqlite3# Oraclenpm i oracledb# MSSQLnpm i tedious 3. Configure- Configure Lucidnode ace configure @adonisjs/lucid# CREATE: config/database.ts# UPDATE: .env,.env.example# UPDATE: tsconfig.json { types += \"@adonisjs/lucid\" }# UPDATE: .adonisrc.json { commands += \"@adonisjs/lucid/build/commands\" }# UPDATE: .adonisrc.json { providers += \"@adonisjs/lucid\" }- configure env.ts// env.tsimport Env from '@ioc:Adonis/Core/Env'export default Env.rules({  HOST: Env.schema.string({ format: 'host' }),  PORT: Env.schema.number(),  APP_KEY: Env.schema.string(),  APP_NAME: Env.schema.string(),  DRIVE_DISK: Env.schema.enum(['local'] as const),  NODE_ENV: Env.schema.enum(['development', 'production', 'test'] as const),  MYSQL_HOST: Env.schema.string({ format: 'host' }),  MYSQL_PORT: Env.schema.number(),  MYSQL_USER: Env.schema.string(),  MYSQL_PASSWORD: Env.schema.string.optional(),  MYSQL_DB_NAME: Env.schema.string(),})create mysql databasemysql -u rootcreate database `rpcx-db`;- configure .envPORT=3333HOST=0.0.0.0NODE_ENV=developmentAPP_KEY=AgmGqITkUEu9JANAafY3gYfMkO2IWctWDRIVE_DISK=localDB_CONNECTION=mysqlMYSQL_HOST=localhostMYSQL_PORT=3306MYSQL_USER=rootMYSQL_PASSWORD=MYSQL_DB_NAME=rpcx-db- configure Auth      Configure Auth    node ace configure @adonisjs/auth      - git initgit initgit add .git commit -m \"Initial API, lucid, &amp; auth\"MigrationModifrun migrationnode ace migration:runSeedmake seedernode ace make:seeder User# // database/seeder/user.tsimport BaseSeeder from '@ioc:Adonis/Lucid/Seeder'import User from 'App/Models/User'export default class UserSeeder extends BaseSeeder {  public async run () {    await User.createMany([      {        email: 'virk@adonisjs.com',        password: 'secret',      },      {        email: 'romain@adonisjs.com',        password: 'supersecret'      }    ])  }}run seednode ace db:seed# node ace db:seed --files './database/seeders/User.ts'"
+  },
+  
+  {
+    "title": "Ubuntu WSL 2",
+    "url": "/posts/ubuntu-wsl2/",
+    "categories": "Notes, Cheatsheet",
+    "tags": "wsl",
+    "date": "2022-07-01 20:55:00 +0700",
+    
+
+
+
+
+
+    "snippet": "What is?  https://docs.microsoft.com/en-us/windows/wsl/aboutInstall &amp; Config  https://docs.microsoft.com/en-us/windows/wsl/install  https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overviewRunning WSLWith Start Menu  using start menu,  find for Ubuntuusing Powsershell  Open Powershell, (press WinCtl + x, type  i )  type wsl on terminal  dan kamu will login to ubuntu in current location you type the command  Or you can select from terminal dropdown tab, to open new tab as ubuntu wsl, seperti pada gambar berikutUsefull CommandPowershell            Command      Descriptions                  wsl -v      cek versi              wsl -l      cek distro              wsl -l -v      cek versi dan list distro              wsl –help      man page wsl              wsl –list –online      list distro online              wsl.exe –install      install default distribution              wsl –set-default-version 2      set to version 2 wsl version        Install other distro: wsl --install -d &lt;Distribution Name&gt;Ganti Default User            Command      Descriptions                  ubuntu config –default-user new_user_name      ganti default user distro ubuntu        NOTE: Perintah diatas digunakan di powershell sebelum masuk ke mode wsl            Command      Descriptions                  wslfetch                     pwd                     whoami               NOTE: Perintah diatas digunakan setelah masuk ke mode wslRunning ubuntu command with wsl  tanpa masuk dulu mode linux  tambahkan wsl sebelum kode perintah under linuxnya          Ex: Cek status ssh wsl service ssh status      WSL Packages &amp; Services            Command      Descriptions                  sudo nano /etc/apt/sources.list                     sudo apt update                     sudo apt full-upgrade                     sudo apt-get purge –auto-remove gedit      ..              code .      vscode wsl remote, using code on windows system        by default systemctl was disable because system has not been booted with systemd as init system.gunakan perintah service to check services on wsl, misalkan service ssh status, kalo mau dari powershell wsl service ssh status            Command      Descriptions                  service –status-all      display all services on ubuntu wsl              service ssh status      cek status sshd              sudo service ssh start      start sshd              sudo service ssh stop      stop sshd              service ssh –full-restart      restard sshd      System Informations            Command      Descriptions                  lscpu      display information about the CPU architecture              lshw      list hardware              du      Summarize disk usage of the set of FILEs, recursively for directories              df      report file system disk space usage              fdisk      manipulate disk partition table              vmstat      Report virtual memory statistics              uptime      uptime running pc              ip a      check ip address              ip addr      check ip address              ip addr | grep eth0             Manage Process            Command      Descriptions                  echo $PATH      display path environment              ps      displays information about a selection of the active processes, eg: ps -e, pas -a              tree      list contents of directories in a tree-like format              pidof -z sshd      List zombie and I/O waiting processes. May cause pidof to hang.              pstree      Display a tree of processes              top      display Linux processes with dynamic real-time view of a running system              htop      mostly like top interactive process viewer      Users &amp; Groups            Command      Descriptions                  cat /etc/passwd                     useradd      create user only              usermod      create user only              userdel      create user only              adduser      create user also create /home/jack, eg: sudo adduser jack              usermod      mod jack as group sudo sudo usermod -aG sudo jack              cat /etc/passwd                     groupadd      groupadd marketing accounting              groupmod      groupmod -n marketing old_group              groupdel                     gpasswd      administer /etc/group and /etc/gshadow              gpasswd -a jack marketing      add jack to group marketing      Permissions            Command      Descriptions                  su jack      switch as jack in current session              su - jack      login to jack environment new session              sudo cat /etc/sudoers      use sudo visudo to modify      Working with Files and Directories            Command      Descriptions                  ls      list dir              cd      change dir              |      pipe              less      eg:  ls /etc/ | less               more      eg:  ls /etc/ | more       hash            Command      Descriptions                  hash                     cksum                     find                     grep                     diff             Link            Command      Descriptions                  ln file1 fileA      hardlink file1 shortcutnya fileA              ln -s folder1 sym-folder1      simbolic link      Compression            Command      Descriptions                  tar      compress: tar -cvf tarball.tar file1 file2 file 3                     extract: tar -xf tarball.tar              gzip      compress: gzip marketing.tar                     extract: gzip -d marketing.tar.gz              zip      zip -r [foldername]                     unzip [foldername]      Manage Log            Command      Descriptions                  lastlog                     ls /var/log                     cat /var/log/apt/history.log      grep purge      SSH to AWS EC2  using key.pem method    sudo ssh -i /path/to/key.pem username@&lt;remote_host_ip&gt;      Install Packages untuk BelajarInstall NodeJS  Install NVM (Node Version Manager)          https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl              Or See this post: posts/nvm/      "
   },
   
   {
@@ -177,7 +222,7 @@
 
 
 
-    "snippet": "Prerequisites  .prompt-warninghttps://www.google.com"
+    "snippet": "Prerequisites"
   }
   
 ]
