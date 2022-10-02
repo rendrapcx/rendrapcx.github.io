@@ -19,6 +19,10 @@ const resource = [
   
     '/about/',
   
+    '/labs/',
+  
+    '/store/',
+  
 
   /* --- Favicons & compressed JS --- */
   

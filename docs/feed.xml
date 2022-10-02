@@ -4,7 +4,7 @@
   <id>https://rendrapcx.github.io/</id>
   <title>rendrapcx</title>
   <subtitle>My Note's Labs</subtitle>
-  <updated>2022-07-22T21:03:21+07:00</updated>
+  <updated>2022-10-02T14:19:40+07:00</updated>
   <author>
     <name>Rendra Pratama</name>
     <uri>https://rendrapcx.github.io/</uri>
@@ -17,6 +17,86 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Rise Up</title>
+    <link href="https://rendrapcx.github.io/posts/syndrome-part-3/" rel="alternate" type="text/html" title="Rise Up" />
+    <published>2022-08-18T18:36:04+07:00</published>
+  
+    <updated>2022-08-18T18:36:04+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/syndrome-part-3/</id>
+    <content src="https://rendrapcx.github.io/posts/syndrome-part-3/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Story" />
+    
+    <category term="Kisahku" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      finally here
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>adonis test load</title>
+    <link href="https://rendrapcx.github.io/posts/adonis-test/" rel="alternate" type="text/html" title="adonis test load" />
+    <published>2022-07-23T08:36:34+07:00</published>
+  
+    <updated>2022-07-23T08:36:34+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/adonis-test/</id>
+    <content src="https://rendrapcx.github.io/posts/adonis-test/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="adonis" />
+    
+    <category term="ts" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Adonis Code Snippets
+
+https://gist.githubusercontent.com/rendrapcx/a2a00ba03ce183d2cf594e2136e06bba/raw/5aef4f803004a06e5f8b83a9da2e5662a68b8366/routes-user.ts
+
+
+
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -154,142 +234,6 @@ else
     baru=$(( $n + 1 ))
     touch $nama$baru
     echo "$nama$baru was ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Node Version Manager</title>
-    <link href="https://rendrapcx.github.io/posts/nvm/" rel="alternate" type="text/html" title="Node Version Manager" />
-    <published>2022-07-04T02:27:11+07:00</published>
-  
-    <updated>2022-07-07T12:30:07+07:00</updated>
-  
-    <id>https://rendrapcx.github.io/posts/nvm/</id>
-    <content src="https://rendrapcx.github.io/posts/nvm/" />
-    <author>
-      <name>rendrapcx</name>
-    </author>
-
-  
-    
-    <category term="Notes" />
-    
-    <category term="Cheatsheet" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Node Version Manager on WSL
-
-
-  ini untuk ubuntu, wsl atau multipass dan sebangsanya, untuk windows disini 1
-
-
-Requirement
-which curl
-# if not installed:
-# sudo apt install curl
-
-
-Download Installer to home
-
-cd ~
-
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
-
-Reload .bashrc
-source ~/.bashrc
-
-
-Usefull Command
-
-
-  
-    
-      command
-      description
-    
-  
- ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Laragon Cmder</title>
-    <link href="https://rendrapcx.github.io/posts/cmder-cheatsheet/" rel="alternate" type="text/html" title="Laragon Cmder" />
-    <published>2022-07-03T19:52:14+07:00</published>
-  
-    <updated>2022-07-17T06:50:10+07:00</updated>
-  
-    <id>https://rendrapcx.github.io/posts/cmder-cheatsheet/</id>
-    <content src="https://rendrapcx.github.io/posts/cmder-cheatsheet/" />
-    <author>
-      <name>rendrapcx</name>
-    </author>
-
-  
-    
-    <category term="Notes" />
-    
-    <category term="Cheatsheet" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Laragon Cmder Cheatsheer
-
-
-  
-    
-      Command
-      Descriptions
-    
-  
-  
-    
-      alias
-      show all alias
-    
-    
-      alias /?
-      show alias man page
-    
-    
-      alias /reload
-      reload alias, when directly to the file
-    
-    
-      alias me=echo “rendra”
-      create me alias
-    
-    
-      unalias me
-      remove alias me
-    
-    
-      alias www=C:\laragon\www
-  ...
     </summary>
   
 
