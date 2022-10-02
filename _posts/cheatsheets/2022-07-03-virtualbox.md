@@ -41,8 +41,3 @@ VBoxHeadless -s "USVM-Clone-01"
 ## Autorun VM headless on windows start
 
 // TODO: move to ubuntu cheatsheet
-## change hostname 
-hostname
-hostnamectl
-hostnamectl set-hostname <new-hostname>
-sudo nano /etc/hosts

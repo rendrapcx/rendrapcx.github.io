@@ -1,7 +1,12 @@
-/** 
- * swiper1.js
- * 
- * */
+---
+title: rn swipper1
+author: rendrapcx
+date: 2022-07-31 12:21:27 +0700
+categories: [Gists, react-native]
+tags: []
+---
+
+```js
 import React, { useRef } from 'react';
 import { Animated, Dimensions, ScrollView, StyleSheet, View } from 'react-native';
 
@@ -80,3 +85,4 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
     },
 });
+```

@@ -1,8 +1,9 @@
 ---
-tags: [react-native]
-title: rn-swiper4
-created: '2022-02-03T12:13:09.183Z'
-modified: '2022-06-19T16:05:06.581Z'
+title: rn swipper4
+author: rendrapcx
+date: 2022-07-31 12:22:44 +0700
+categories: [Gists, react-native]
+tags: []
 ---
 
 # rn-swiper4

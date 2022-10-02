@@ -1,8 +1,9 @@
 ---
-tags: [tutorials]
-title: AdonisJS Cheatsheet
-created: '2022-07-13T15:39:22.637Z'
-modified: '2022-07-15T23:39:20.309Z'
+title: Adonis Cheatsheet
+author: rendrapcx
+date: 2022-07-26 18:42:54 +0700
+categories: [Adonis]
+tags: [other]
 ---
 
 # AdonisJS Cheatsheet

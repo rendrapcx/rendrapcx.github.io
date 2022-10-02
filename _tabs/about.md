@@ -4,9 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+## Badges and Certifications
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="79832c55-8c26-42f8-affb-2c68d907d1fe" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-`rendrapcx.github.io` ini merupakan beberapa kumpulan catatan langit selama saya berada di taman langit untuk mencoba hal-hal baru. Mungkin juga bisa dibilang sebuah public bookmark dari beberapa tempat di langit yang pernah saya singgahi, bahkan sebagiannya pernah saya cicipi luar dalam, dari atas sampai bawah, dari ujung rambut sampai ujung kaki, dari ... 
+## Work Experiences
+1. PT Indosadang Fabrikator
+2. Indosat DRC
 
-*aarrghhh sudahlah*. 
+## Formal Educations
 
-You Know what i mean.
+<iframe src="https://wastukancana.ac.id/officials/" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
