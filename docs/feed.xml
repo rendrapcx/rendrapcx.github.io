@@ -1,0 +1,253 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://rendrapcx.github.io/</id>
+  <title>rendrapcx</title>
+  <subtitle>My Note's Labs</subtitle>
+  <updated>2022-10-03T19:05:30+07:00</updated>
+  <author>
+    <name>Rendra Pratama</name>
+    <uri>https://rendrapcx.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://rendrapcx.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://rendrapcx.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Rendra Pratama </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Kali GUI</title>
+    <link href="https://rendrapcx.github.io/posts/kali-gui/" rel="alternate" type="text/html" title="Kali GUI" />
+    <published>2022-10-01T20:55:00+07:00</published>
+  
+    <updated>2022-07-06T20:55:00+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/kali-gui/</id>
+    <content src="https://rendrapcx.github.io/posts/kali-gui/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="WSL" />
+    
+    <category term="Kali" />
+    
+    <category term="GUI" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Kali win-kex
+
+
+  menjalankan kali linux di wsl2 + GUI desktop environment
+source: https://www.kali.org/docs/wsl/win-kex/
+
+
+
+
+Win-Kex
+
+  wsl2
+  kali-linux
+  install win-kex
+    kali@kali:~$ sudo apt update
+kali@kali:~$
+kali@kali:~$ sudo apt install -y kali-win-kex
+    
+  
+
+
+Run win-kex from terminal
+
+  Windows Mode =&amp;gt; kex --win -s
+  ESM Mode ==&amp;gt; kex --esm --ip -s
+  Seamless Mode ==&amp;gt; kex...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Rise Up</title>
+    <link href="https://rendrapcx.github.io/posts/syndrome-part-3/" rel="alternate" type="text/html" title="Rise Up" />
+    <published>2022-08-18T18:36:04+07:00</published>
+  
+    <updated>2022-08-18T18:36:04+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/syndrome-part-3/</id>
+    <content src="https://rendrapcx.github.io/posts/syndrome-part-3/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="Story" />
+    
+    <category term="Kisahku" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      finally here
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>bash_aliases</title>
+    <link href="https://rendrapcx.github.io/posts/bash_aliases/" rel="alternate" type="text/html" title="bash_aliases" />
+    <published>2022-08-02T11:25:47+07:00</published>
+  
+    <updated>2022-07-06T20:55:00+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/bash_aliases/</id>
+    <content src="https://rendrapcx.github.io/posts/bash_aliases/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="WSL" />
+    
+    <category term="Ubuntu" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Bash Aliases
+
+  …
+
+
+alias myip="ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'"
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>UFW</title>
+    <link href="https://rendrapcx.github.io/posts/ufw/" rel="alternate" type="text/html" title="UFW" />
+    <published>2022-08-02T11:07:11+07:00</published>
+  
+    <updated>2022-07-06T20:55:00+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/ufw/</id>
+    <content src="https://rendrapcx.github.io/posts/ufw/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="WSL" />
+    
+    <category term="Ubuntu" />
+    
+    <category term="Firewall" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      sudo ufw app list
+
+sudo ufw allow in “Apache”
+
+sudo ufw status
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>composer</title>
+    <link href="https://rendrapcx.github.io/posts/composer/" rel="alternate" type="text/html" title="composer" />
+    <published>2022-08-02T10:57:44+07:00</published>
+  
+    <updated>2022-07-06T20:55:00+07:00</updated>
+  
+    <id>https://rendrapcx.github.io/posts/composer/</id>
+    <content src="https://rendrapcx.github.io/posts/composer/" />
+    <author>
+      <name>rendrapcx</name>
+    </author>
+
+  
+    
+    <category term="WSL" />
+    
+    <category term="Ubuntu" />
+    
+    <category term="Composer" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      install composer global
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r ...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
