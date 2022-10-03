@@ -2,8 +2,8 @@
 title: Laragon Cmder
 author: rendrapcx
 date: 2022-07-03 19:52:14 +0700
-categories: [Notes, Laragon]
-tags: [windows-11]
+categories: [Notes, Laragon, Cmder]
+tags: [cheatsheet, windows-11]
 pin: false
 ---
 ## Laragon Cmder Cheatsheer
@@ -22,3 +22,6 @@ pin: false
 > by default, the macrofile store in `C:\laragon\bin\cmder\config\user-aliases.cmd`
 {: .prompt-info }
 
+
+### Sources
+- <https://laragon.org/download/index.html>

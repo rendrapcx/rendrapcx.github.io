@@ -2,11 +2,12 @@
 title: Code Server
 author: rendrapcx
 date: 2022-07-05 02:02:29 +0700
-categories: [Notes, Cheatsheet]
+last_modified_at: 2022-10-03 19:55:44 +0700
+categories: [Notes, Code Server]
 tags: [windows-11]
 pin: false
 ---
-## 
+##
 - sudo apt update
 - sudo apt upgrade
 - install dengna script. metoda lain >> [^1]
