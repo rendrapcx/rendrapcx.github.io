@@ -2,8 +2,9 @@
 title: bash_aliases
 author: rendrapcx
 date: 2022-08-02 11:25:47 +0700
-categories: [Ubuntu-Wsl, bash]
-tags: [tags]
+last_modified_at: 2022-07-06 20:55:00 +0700
+categories: [WSL, Ubuntu]
+tags: [wsl2]
 ---
 
 ## Bash Aliases
