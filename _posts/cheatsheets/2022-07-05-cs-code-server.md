@@ -2,12 +2,11 @@
 title: Code Server
 author: rendrapcx
 date: 2022-07-05 02:02:29 +0700
-last_modified_at: 2022-10-03 19:55:44 +0700
+last_modified_at: 2022-10-03 20:27:10 +0700
 categories: [Notes,Cheatsheet, Code Server]
 tags: [windows-11]
 pin: false
 ---
-
 ## Visual Studio Server
 
 - `sudo apt update`
