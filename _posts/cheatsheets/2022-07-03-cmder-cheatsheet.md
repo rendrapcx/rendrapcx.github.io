@@ -2,7 +2,7 @@
 title: Laragon Cmder
 author: rendrapcx
 date: 2022-07-03 19:52:14 +0700
-categories: [Notes, Cheatsheet]
+categories: [Notes, Laragon]
 tags: [windows-11]
 pin: false
 ---
@@ -18,8 +18,7 @@ pin: false
 | alias www=C:\laragon\www | create `www` alias                      |
 | alias /d www             | remove alias `www`                      |
 | n=notepad++ $*           | create alias                            |
- 
+
 > by default, the macrofile store in `C:\laragon\bin\cmder\config\user-aliases.cmd`
 {: .prompt-info }
 
- 

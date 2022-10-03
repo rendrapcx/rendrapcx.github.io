@@ -2,7 +2,7 @@
 title: Virtualbox
 author: rendrapcx
 date: 2022-07-03 00:37:03 +0700
-categories: [Notes, Cheatsheet]
+categories: [Notes, Virtualbox]
 tags: [windows-11]
 last_modified_at: 2022-07-07 12:28:08 +0700
 ---

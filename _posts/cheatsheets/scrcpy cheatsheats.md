@@ -1,10 +1,11 @@
 ---
-tags: [cheatsheet]
-title: scrcpy cheatsheats
-created: '2022-05-31T05:46:03.858Z'
-modified: '2022-05-31T21:12:09.049Z'
+title: SCRCPY
+author: rendrapcx
+date: 2022-10-03 19:49:55 +0700
+last_modified_at: 2022-10-03 19:50:06 +0700
+categories: [Cheatsheet, Scrcpy]
+tags: [tags]
 ---
-
 # scrcpy cheatsheats
 
 
