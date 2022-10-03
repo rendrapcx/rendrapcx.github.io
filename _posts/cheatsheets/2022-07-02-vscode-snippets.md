@@ -2,8 +2,8 @@
 title: VSCode Snippets
 author: rendrapcx
 date: 2022-07-02 18:03:54 +0700
-categories: [Notes, Snippets]
-tags: [snippets]
+categories: [Notes, Cheatsheet, Snippets]
+tags: [vscode, cheatsheet, snippets]
 pin: false
 ---
 ## Create & Config

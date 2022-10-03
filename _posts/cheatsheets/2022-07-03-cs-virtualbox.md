@@ -2,7 +2,7 @@
 title: Virtualbox
 author: rendrapcx
 date: 2022-07-03 00:37:03 +0700
-categories: [Notes, Virtualbox]
+categories: [Notes, Cheatsheet, Virtualbox]
 tags: [cheatsheet, windows-11]
 last_modified_at: 2022-07-07 12:28:08 +0700
 ---
@@ -28,13 +28,15 @@ last_modified_at: 2022-07-07 12:28:08 +0700
 ## Networking
 
 ## VboxManage CLI
+{% raw %}
 | Command                                            | Descriptions                   |
 | -------------------------------------------------- | ------------------------------ |
 | vboxmanage list vms                                | list all vms                   |
 | vboxmanage startvm "USVM-Clone-01" --type headless | start on background            |
 | vboxmanage list runningvms                         | list vms running on background |
 | vboxmanage controlvm "USVM-Clone-01" poweroff      | shutdown vms                   |
-VBoxHeadless -s "USVM-Clone-01"
+| VBoxHeadless -s "USVM-Clone-01"                    |                                |
+{% endraw %}
 
 ## make copy of vm as linked
 

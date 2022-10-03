@@ -2,7 +2,7 @@
 title: Laragon Cmder
 author: rendrapcx
 date: 2022-07-03 19:52:14 +0700
-categories: [Notes, Laragon, Cmder]
+categories: [Notes, Cheatsheet, Cmder]
 tags: [cheatsheet, windows-11]
 pin: false
 ---

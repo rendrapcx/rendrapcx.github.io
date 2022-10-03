@@ -1,14 +1,14 @@
 ---
-title: Powershell Permanent Alias
+title: Powershell
 author: rendrapcx
 date: 2022-07-03 09:33:15 +0700
-categories: [Notes, PowerShell]
-tags: [windows-11]
+categories: [Notes, Cheatsheet, PowerShell]
+tags: [windows-11, cheatsheet]
 ---
 > updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}
 {: .prompt-info }
 
-## Initial
+## Permanent Alias
 
 ### check
 
@@ -97,3 +97,11 @@ _"oh my posh contoh"_
 
 ![Desktop View](https://i.imgur.com/0odCft0.png){: width="972" height="589" }
 _Get-Service_
+
+
+### Services
+```pwsh
+Get-Service *sql*
+Stop-Service MSSQLSERVER
+Start-Service MSSQLSERVER
+```
