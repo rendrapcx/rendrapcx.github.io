@@ -11,7 +11,7 @@ order: 4
 1. PT Indosadang Fabrikator
 2. Indosat DRC
 
-![Full Summary]<https://www.canva.com/design/DAFdJvpoXq4/ljnudTW9X8dOhvJA02auUg/view?utm_content=DAFdJvpoXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink>
+[Full Summary]()https://www.canva.com/design/DAFdJvpoXq4/ljnudTW9X8dOhvJA02auUg/view?utm_content=DAFdJvpoXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## Formal Educations
 
