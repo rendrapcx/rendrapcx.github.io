@@ -11,10 +11,8 @@ order: 4
 1. PT Indosadang Fabrikator
 2. Indosat DRC
 
-[CV]<https://www.canva.com/design/DAFdJvpoXq4/ljnudTW9X8dOhvJA02auUg/view?utm_content=DAFdJvpoXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink>
+![Full Summary]<https://www.canva.com/design/DAFdJvpoXq4/ljnudTW9X8dOhvJA02auUg/view?utm_content=DAFdJvpoXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink>
 
 ## Formal Educations
 
 <iframe src="https://wastukancana.ac.id/officials/" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
-
-<iframe src="https://www.canva.com/design/DAFdJvpoXq4/ljnudTW9X8dOhvJA02auUg/view?utm_content=DAFdJvpoXq4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
