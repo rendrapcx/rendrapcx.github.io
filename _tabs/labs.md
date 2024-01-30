@@ -9,8 +9,7 @@ order: 4
 
 ## Terka-TTS
 ![terka_mimpi](https://github.com/rendrapcx/rendrapcx.github.io/assets/24238613/4aeae285-c161-478f-a209-1258f426f770)
-
-https://drive.google.com/file/d/19RoWxPMI_VPPy9-GvmceYBloY-yohQef/view?usp=sharing
+[terka-tts.apk](https://drive.google.com/file/d/19RoWxPMI_VPPy9-GvmceYBloY-yohQef/view?usp=sharing)
 
 ## E-Learning
 
