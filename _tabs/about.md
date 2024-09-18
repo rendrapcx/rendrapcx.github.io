@@ -13,9 +13,10 @@ order: 4
 
 --- 
 
-![Desktop View](/assets/Rendra-Pratama-CV2024.png){: w="320" h="150" }{: .left}
+![Desktop View](/assets/Rendra-Pratama-CV2024.png){: w="320" h="150" }{: .normal }
 
 
+![Desktop View](https://photos.app.goo.gl/bzKnUebrfoHySbnk8){: w="320" h="150" }{: .normal }
 
 
 
