@@ -16,11 +16,7 @@ order: 4
 ![Desktop View](/assets/Rendra-Pratama-CV2024.png){: w="320" h="150" }{: .normal }
 
 
-![Desktop View](https://photos.app.goo.gl/bzKnUebrfoHySbnk8){: w="320" h="150" }{: .normal }
-
-
-
-
+![Desktop View](https://lh3.googleusercontent.com/pw/AP1GczMmCIEzR4h2cGVHBK355CRheINyORia2ZU-savuQFHesQt8EtLyGdWEAsOv2mkgdxoOR9R6HnB5cS12Co5LdKHRDBNRMCK40iXhavo9g_YqhbQP0XBFHVEuYSwMKm0FVbrq4ZgAosuqLDJC88JuFsQt=w716-h716-s-no-gm?authuser=0){: w="320" h="150" }{: .normal }
 
 
 
