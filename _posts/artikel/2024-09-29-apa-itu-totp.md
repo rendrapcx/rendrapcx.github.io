@@ -2,8 +2,8 @@
 title: Time-based One-Time Password (TOTP)
 author: rendrapcx
 date: 2024-09-29 18:06:48 +0700
-categories: [artikel]
-tags: [artikel]
+categories: [Artikel, Tekno]
+tags: [Tekno]
 ---
 
 Time-based One-Time Password (TOTP) adalah algoritma komputer yang menghasilkan kata sandi sekali pakai (OTP) dengan menggunakan waktu saat ini sebagai sumber keunikan. Ini merupakan perluasan dari algoritma kata sandi sekali pakai berbasis HMAC (HOTP) dan telah diadopsi sebagai standar Internet Engineering Task Force (IETF) dalam RFC 62381.
