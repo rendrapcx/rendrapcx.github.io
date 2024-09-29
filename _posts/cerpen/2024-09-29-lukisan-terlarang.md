@@ -6,14 +6,10 @@ image:
   path: "/assets/img/lukisan-terlarang.jpg"
   width: 1000   # in pixels
   height: 400   # in pixels
-  alt: Hero Image
+  alt: Lukisan Terlarang
 categories: [Cerpen]
 tags: [Horor]
 ---
-
-![Desktop View](/assets/img/lukisan-terlarang.jpg){: w="700" h="400" }
-
-**Judul: "Lukisan Terlarang"**
 
 Suatu hari di sebuah desa terpencil, terdapat sebuah rumah tua yang selalu ditinggalkan oleh penduduk setempat. Konon, rumah itu memiliki sejarah kelam yang tak terungkap. Namun, ada satu hal yang menarik perhatian semua orang: sebuah lukisan besar yang tergantung di dinding ruang tengah.
 
