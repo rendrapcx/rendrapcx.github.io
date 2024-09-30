@@ -7,7 +7,7 @@ image:
   width: 1000   # in pixels
   height: 400   # in pixels
   alt: Lukisan Terlarang
-categories: [Cerpen]
+categories: [Cerpen, Horor]
 tags: [Horor]
 ---
 
