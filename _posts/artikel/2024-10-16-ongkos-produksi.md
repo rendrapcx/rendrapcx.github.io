@@ -11,8 +11,6 @@ image:
   alt: infografis-ongkos-produksi
 ---
 
-![Desktop View](https://i.ibb.co.com/FzSGNN3/Designer-1.jpg){: w="700" h="400" }
-
 Ongkos produksi adalah total biaya yang dikeluarkan untuk menghasilkan suatu produk atau jasa. Memahami ongkos produksi sangat penting bagi setiap bisnis, baik skala kecil maupun besar. Dengan mengetahui ongkos produksi, kamu bisa menentukan harga jual yang tepat, mengoptimalkan proses produksi, dan meningkatkan profitabilitas bisnis.
 Unsur-Unsur Utama Ongkos Produksi
 
