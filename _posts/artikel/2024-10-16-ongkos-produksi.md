@@ -3,7 +3,7 @@ title: Ongkos Produksi
 author: rendrapcx
 date: 2024-10-16 10:00:12 +0700
 categories: [Artikel]
-tags: [tags]
+tags: [UMKM]
 image:
   path: https://i.ibb.co.com/FzSGNN3/Designer-1.jpg
   width: 1000   # in pixels
