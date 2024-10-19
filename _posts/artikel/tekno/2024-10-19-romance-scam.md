@@ -3,7 +3,7 @@ title: Romance Scam
 author: rendrapcx
 date: 2024-10-19 11:09:16 +0700
 categories: [artikel, tekno]
-tags: [tekno]
+tags: [tekno, medsos]
 image:
   path: "https://i.ibb.co.com/yhK5352/infografis-romance-scam.png"
   width: 1000   # in pixels

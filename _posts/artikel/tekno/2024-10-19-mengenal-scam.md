@@ -3,7 +3,7 @@ title: Kenali Scam sejak dini!
 author: rendrapcx
 date: 2024-10-19 11:04:55 +0700
 categories: [artikel, tekno]
-tags: [tekno]
+tags: [tekno, medsos]
 image:
   path: "https://i.ibb.co.com/VSy0xZw/infografis-scamming.png"
   width: 1000   # in pixels
