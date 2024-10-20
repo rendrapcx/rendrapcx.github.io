@@ -32,8 +32,5 @@ Harimau yang terluka dan terbakar mengikuti Si Kancil ke sungai. Namun, Si Kanci
 
 Harimau pun akhirnya menjadi santapan buaya, dan Si Kancil berhasil lolos dengan cerdiknya.
 
-Sekarang, berikut adalah ilustrasi dari cerita tersebut:
-
-!Si Kancil dan Harimau
 
 Tamat.

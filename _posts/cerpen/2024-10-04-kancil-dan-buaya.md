@@ -30,8 +30,4 @@ Setelah sampai di seberang, Si Kancil tertawa dan berkata, “Terima kasih, Buay
 
 Buaya yang merasa ditipu sangat marah, tetapi mereka tidak bisa berbuat apa-apa karena Si Kancil sudah berada di seberang sungai.
 
-Sekarang, berikut adalah ilustrasi dari cerita tersebut:
-
-!Si Kancil dan Buaya
-
 Tamat.
