@@ -1,6 +1,6 @@
 # Clean up the stale issues
 
-daysUntilStale: 30
+daysUntilStale: 7
 daysUntilClose: 1
 
 exemptLabels:
